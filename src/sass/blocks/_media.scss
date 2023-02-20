@@ -8,9 +8,14 @@
         }
     }
     .advantages{
+        padding: 40px 0 60px 0;
         &__wrapper{
             justify-content: space-around;
         }
+    }
+    .consultation{
+        min-height: 580px;
+        padding: 40px 0 80px 0;
     }
 }
 @media (max-width: 991px) {
@@ -55,6 +60,20 @@
             margin-top: 20px;
         }
     }
+    .consultation {
+        min-height: 550px;
+        padding: 40px 0 40px 0;
+        .title_left {
+            text-align: center;
+            font-size: 33px;
+        }
+        &__descr {
+            text-align: center;
+        }
+        .feed-form {
+            margin: 36px auto;
+        }
+    }
 }
 @media (max-width: 767px) {
     .promo {
@@ -93,6 +112,14 @@
         }
         &__descr {
             font-size: 17px;
+        }
+    }
+    .consultation {
+        min-height: 550px;
+        padding: 40px 0 40px 0;
+        .title_left {
+            font-size: 26px;
+            line-height: 36px;
         }
     }
 }
@@ -146,5 +173,17 @@
     }
     .advantages {
         padding: 20px 0 20px 0;
+    }
+    .consultation {
+        min-height: 550px;
+        padding: 40px 0 40px 0;
+        .title_left {
+            font-size: 20px;
+            line-height: 24px;
+        }
+        &__descr {
+            font-size: 18px;
+            line-height: 18px;
+        }
     }
 }
