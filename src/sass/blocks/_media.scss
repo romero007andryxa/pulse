@@ -122,6 +122,17 @@
             line-height: 36px;
         }
     }
+    .carousel {
+        &__inner{
+            width: 100%;
+            img {
+                width: 100%;
+            }
+        }
+        .slick-dots{
+            justify-content: space-around;
+        }
+    }
 }
 @media (max-width: 575px) {
     .promo {
