@@ -74,7 +74,21 @@
             margin: 36px auto;
         }
     }
-}
+    .catalog{
+        padding-bottom: 40px;
+			&__content{
+				justify-content: space-around;
+			}
+		}
+    }
+    .reviews {
+        &__img {
+            margin-left: 20px;
+        }
+        &__wrapper {
+            margin-left: 40px;
+        }
+    }
 @media (max-width: 767px) {
     .promo {
         .header {
@@ -129,8 +143,28 @@
                 width: 100%;
             }
         }
-        .slick-dots{
+        /* .slick-dots{
             justify-content: space-around;
+        } */
+    }
+    .catalog {
+        padding-bottom: 20px;
+        &__tabs {
+            margin-top: 50px;
+        }
+        &__tab {
+            width: 160px;
+        }
+        &-item {
+            width: 280px;
+        }
+    }
+    .reviews {
+        &__item {
+            margin-top: 40px;
+        }
+        &__wrapper {
+            margin-left: 20px;  
         }
     }
 }
@@ -195,6 +229,67 @@
         &__descr {
             font-size: 18px;
             line-height: 18px;
+        }
+    }
+    .carousel {
+        padding-bottom: 40px;
+    }
+    .catalog {
+        h2 {
+            line-height: 35px;
+        }
+        &__tabs {
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        &__tab {
+            margin-bottom: 20px;
+            width: 250px;
+            &:nth-child(3) {
+                margin-bottom: 0px;
+            }
+        }
+        &__content {
+            margin-top: 30px;
+        }
+        &-item {
+            width: 315px;
+            &__link {
+                font-size: 18px;
+            }
+            &__subtitle {
+                font-size: 20px;
+            }
+            &__descr {
+                margin-top: 5px;
+                font-size: 16px;
+            }
+            &__back {
+                font-size: 18px;
+                bottom: 5px;
+            }
+            &__list {
+                li {
+                    font-size: 15px;
+                }
+            }
+            .button{
+                &_mini{
+                    width: 140px;
+                }
+            }
+        }
+    }
+    .reviews {
+        &__item {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__wrapper {
+            padding: 0 20px;
+            margin-top: 20px;
+            text-align: center;
+            margin-left: 0;
         }
     }
 }
