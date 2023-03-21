@@ -130,7 +130,10 @@
             transition: 0.5s all;
             padding-left: 19px;
             margin-bottom: 0;
-            list-style-type: none;
+            ul {
+                padding: 0;
+                list-style-type: none;
+            }
             &_active {
                 transform: translateX(-100%);
                 margin-left: 0px;

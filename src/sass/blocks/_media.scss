@@ -89,6 +89,18 @@
             margin-left: 40px;
         }
     }
+    .footer {
+        &__info {
+            width: 360px;
+        }
+        &__social-item {
+            width: 44px;
+            height: 44px;
+            img {
+                height: 24px;
+            }
+        }
+    }
 @media (max-width: 767px) {
     .promo {
         .header {
@@ -165,6 +177,26 @@
         }
         &__wrapper {
             margin-left: 20px;  
+        }
+    }
+    .footer {
+        height: 530px;
+        iframe {
+            height: 530px;
+        }
+        &__phone {
+            margin-top: 40px;
+        }
+        &__info {
+            width: 330px;
+            padding: 48px 68px 48px 68px;
+        }
+        &__social-item {
+            width: 37px;
+            height: 37px;
+            img {
+                height: 20px;
+            }
         }
     }
 }
@@ -290,6 +322,65 @@
             margin-top: 20px;
             text-align: center;
             margin-left: 0;
+        }
+    }
+    .footer {
+        .footer {
+            height: 530px;
+            iframe {
+                height: 530px;
+            }
+            &__phone {
+                margin-top: 35px;
+                font-size: 18px;
+            }
+            &__info {
+                width: 230px;
+                height: 230px;
+                padding: 28px 20px 28px 20px;
+            }
+            &__addr {
+                font-size: 18px;
+            }
+            &__social-item {
+                width: 35px;
+                height: 35px;
+                img {
+                    height: 19px;
+                }
+            }
+        }
+    }
+    .modal {
+        width: 250px;
+        padding: 33px 20px 33px 20px;
+        &__close {
+            font-size: 31px;
+            line-height: 12px;
+            right: -30px;
+        }
+        &__subtitle_consultation {
+            display: none;
+        }
+        &__subtitle-for-small-screen {
+            display: block;
+            font-size: 22px;
+            line-height: 22px;
+        }
+        &__descr_consultation {
+            display: none;
+        }
+        &__descr-for-small-screen {
+            display: block;
+            font-size: 18px;
+            line-height: 18px;
+            margin-top: 5px;
+        }
+        .feed-form {
+            width: 210px;
+            .button_submit {
+                font-size: 14px;
+            } 
         }
     }
 }
